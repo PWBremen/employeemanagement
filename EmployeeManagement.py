@@ -104,7 +104,7 @@ with open(path_source) as file:
             update_menu(cur_lines)
         elif option == 4: # hier werden vorhanden werte gelöscht
             delete_menu(cur_lines)
-        elif option == 6: # hier wird das programm beendet
+        elif option == 5: # hier wird das programm beendet
             #cleanUnicode(path_source)
             print("good bye")
             break
