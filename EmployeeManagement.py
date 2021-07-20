@@ -13,6 +13,7 @@
 6. end program
 '''
 
+# This functions prints a main menu structure in the console.
 def show_main_menu():
     print("What would you like to do: ")
     print("1. Create")
@@ -20,10 +21,11 @@ def show_main_menu():
     print("3. Update")
     print("4. Delete")
     print("5. End")
-
+    
+ # This between min and max valuefunction checks if an integer is input
 def ask_for_integer_input(min, max):
     while True:
-        print("Plese enter a number bewteen",min, "and",max,"!")
+        print("Please enter a number between",min, "and",max,"!")
         answer = input("Input: ")
         if answer.isdecimal():
             if min > int(answer):
