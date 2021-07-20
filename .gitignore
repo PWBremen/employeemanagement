@@ -131,3 +131,4 @@ dmypy.json
 # Critical Data
 .xlsx
 .csv
+export.csv
